@@ -1,20 +1,20 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "ActivityView",
+    name: "swift-activityui",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "ActivityView",
-            targets: ["ActivityView"]
+            name: "ActivityUI",
+            targets: ["ActivityUI"]
         ),
     ],
     targets: [
-        .target(name: "ActivityView")
+        .target(name: "ActivityUI")
     ]
 )
