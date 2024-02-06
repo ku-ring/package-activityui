@@ -3,9 +3,9 @@ import UIKit
 /// Represents an activity for presenting an ActivityView (Share sheet) via the `activitySheet` modifier
 public struct ActivityItem {
 
-    internal var items: [Any]
-    internal var activities: [UIActivity]
-    internal var excludedTypes: [UIActivity.ActivityType]
+    public private(set) var items: [Any]
+    public private(set) var activities: [UIActivity]
+    public private(set) var excludedTypes: [UIActivity.ActivityType]
 
     /// Represents an activity for presenting an ActivityView (Share sheet) via the `activitySheet` modifier
     /// - Parameters:
